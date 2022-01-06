@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Log in</title>  
+
+    </head>
+    <body>
+    <style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: white;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: black;   
+        padding: 10px;   
+        margin: 15px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 10px 20px;   
+        display: nextline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;   
+        border-radius: 1px 2px;
+    }  
+ button:hover {   
+        opacity: 0.7; 
+        background-color: white;
+        color: red;
+        border-color: red; 
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {
+
+        padding: 20px;
+        background color:white;
+        margin-right: 200px;
+        margin-left: 200px;
+    }   
+</style>   
+        <div class="jumbotron">
+        <center><h1>Log In</h1></center>
+        </div>
+        <form> 
+          <div class="container"> 
+          <div class="row-content">  
+               <center><label>Email  </label>  
+               <input type="text" placeholder="Enter Email" name ="Email"required></center>  
+           </div>
+           <div>
+               <center><label>Password  </label> 
+                <input type="password" placeholder="Enter Password" name="password" required></center>
+            </div>
+            <a href="#">Forget password? </a>   
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="back to home"> Back to Home</button>   
+           </div>
+        </form>  
+
+
+    
+    </body>
+</html>
