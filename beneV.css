@@ -1,34 +1,32 @@
 .jumbotron{
-    background-color: rgba(197, 155, 221, 0.247);
-    color: rgb(0, 0, 0);
+    padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    padding: 0px 20px 0px 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} */
-/* .nav-bar{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    text-align: right;
-    padding: 0px;
-    margin: 0px auto;
-    font-size: 20px;
+    background: rgb(241, 121, 121);
+    color: floralwhite;
 }
-.menu-icon{
-    width: 35px;
-    height: 5px;
+a{
     color: black;
+}
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.container-fluid{
+    min-height: 500px;
+}
+.footer{
+    color: whitesmoke;
+    background-color: black;
+    padding: 70px 30px 70px 30px;
     margin: 0px auto;
 }
-.menu-items ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-
-} */
-/* ul{
-    list-style-type: none;
-} */
+.footer a{
+    color: white;
+}
 
