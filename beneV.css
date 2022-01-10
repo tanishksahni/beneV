@@ -1,15 +1,25 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: rgb(241, 121, 121);
+    background: rgb(157, 157, 236);
     color: floralwhite;
 }
-a{
-    color: black;
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: rgb(97, 97, 230);
+}
+.nav-item a{
+    color: floralwhite;
+
+
 }
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
+    text-align: center;
 }
 .row-content{
     margin: 0px auto;
@@ -17,16 +27,21 @@ a{
     border-bottom: 1px ridge;
     min-height: 400px;
 }
+
 .container-fluid{
     min-height: 500px;
 }
 .footer{
     color: whitesmoke;
-    background-color: black;
+    background-color: rgb(157, 157, 236);
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
 }
 .footer a{
     color: white;
 }
+.breadcrumb{
+    padding: 50px 0px 0px 0px ;
+}
+
 
