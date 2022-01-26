@@ -18,29 +18,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="color: black;">
-        <div class="container">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light">
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand " href="beneV.html"> beneV</a>
-            <div class="collapse navbar-collapse" id="Navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" id="logo" href="beneV.html"><img src="images/V-removebg-preview.png" height="75px" width="80px"></a>
+        <div class="collapse navbar-collapse" id="Navbar">
 
-            <ul class="navbar nav mr-auto">
+        <ul class="navbar nav mr-auto">
 
-                <li class="nav-item"><a class="nav-link" href="beneV.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                <li class="nav-item"><a class="nav-link" href="creators-of-all-kind.html">For Creators</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Non-profits</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Learn</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
-            </ul>
-            </div>
+            <!-- <li class="nav-item"><a class="nav-link" href="beneV.html"><span class="fa fa-home fa-lg"></span> Home</a></li>-->
+            <li class="nav-item"><a class="nav-link" href="aboutus.html"> About</a></li> 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    For Creators
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Tech Developers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Video Creators</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Podcasters</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Bloggers and Writers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Speakers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="creators-of-all-kind.html">Creators-Of-All-Kind</a>
+                </div>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">Non-profits</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+            <a role="button" class="btn btn-warning" href="donate.html" style="text-decoration: blink;">DONATE NOW</a>
+            <!-- <li class="nav-item"><a class="nav-link" href="#">Learn</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li> -->
+        </ul>
+        <div class="ml-auto">
+                <a role="button" class="btn btn-link" href="login.html" style="color: black;">Log In</a>
+                <a role="button" class="btn btn-danger" href="signup.html" style="border-radius: 20px;">Become a Benefactor</a>
         </div>
-        
-    </nav>
+        </div>
+    
+</nav>
 
     <div class="container">
         <div class="row">
@@ -58,24 +79,30 @@
            <div class="col-12">
               <h3>Location Information</h3>
            </div>
-            <div class="col-12 col-sm-4 offset-sm-1">
+            <div class="col-12 col-sm-5 offset-sm-1">
                    <h5>Our Address</h5>
                     <address style="font-size: 100%">
                         Chitkara University<br>
                         Rajpura, Punjab<br>
                         India<br>
-		              <i class="fa fa-phone"></i>: <br>
-		              <i class="fa fa-fax"></i>: <br>
+		              <i class="fa fa-phone"></i>: 1800-160-9999<br>
+		              <i class="fa fa-fax"></i>: 1800-170-9999<br>
 		              <i class="fa fa-envelope"></i>:
                         <a href="mailto:beneV.community@gmail.com">beneV.community@gmail.com</a>
 		           </address>
             </div>
-            <!-- <div class="col-12 col-sm-6 offset-sm-1">
-                <h5>Map of our Location</h5>
-            </div> -->
+            <div class="col-12 col-sm-6">
+                <div class="col-12">
+                    <h5>Map of our Location</h5>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.1749715517417!2d76.65758911508713!3d30.516091103092265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1643113019219!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                height="300px" width="400px"></iframe>
+                
+
+            </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
-                    <a role="button" class="btn btn-primary" href="tel:"><i class="fa fa-phone"></i> Call</a>
+                    <a role="button" class="btn btn-primary" href="tel: 1800-160-9999"><i class="fa fa-phone"></i> Call</a>
                     <a role="button" class="btn btn-info"><i class="fa fa-skype"></i>Skype</a>
                     <a role="button" class="btn btn-success" href="mailto:beneV.community@gmail.com"><i class="fa fa-envelope-o"></i>Email</a>
                 </div>
@@ -156,9 +183,9 @@
             <div class="row">             
                 <div class="col-12 offset-1 col-sm-3">
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">For Creators</a></li>
+                        <li><a href="beneV.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="creators-of-all-kind.html">For Creators</a></li>
                         <li><a href="#">Non-Profits</a></li>
                         <li><a href="#">Resources</a></li>
                         <li><a href="#">Learn</a></li>
@@ -166,7 +193,16 @@
                         
                     </ul>
                 </div>
-                <div class="col-12 col-sm-3">
+                <div class="col-12 col-sm-4 address">
+                    <h4>Our Address</h4>
+                    <address>
+                      Chitkara University<br>
+                      Rajpura, Punjab<br>
+                      India<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="beneV.community@gmail.com">beneV.community@gmail.com</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
@@ -175,16 +211,7 @@
                         <a class="btn btn-social-icon btn-youtube"href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                         <a href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
                     </div>
-                </div>
-                <div class="col-12 col-sm-auto address">
-                    <h6>Our Address</h6>
-                    <address>
-		              Chitkara University<br>
-		              Rajpura, Punjab<br>
-		              India<br>
-		              <i class="fa fa-envelope fa-lg"></i>: <a href="beneV.community@gmail.com">beneV.community@gmail.com</a>
-		           </address>
-                </div>
+                </div>   
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
